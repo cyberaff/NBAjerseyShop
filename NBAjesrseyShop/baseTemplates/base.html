@@ -11,6 +11,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>{% block title %}NBA Jersey Shop{% endblock title %}</title>
     <link rel="stylesheet" href="{% static 'style.css' %}">
+    <style type="text/css">
+            body { 
+            background: url('{% static "NBA-Player.png" %}') no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            }
+    </style>
 </head>
 
 <body>
@@ -23,7 +32,7 @@
                 <ul class="navbar-nav">
                     {% if user.is_authenticated %}
                     <li class="nav-item">
-                        <a class="nav-link" href="{% url 'orders:user_orders' %}">Your orders</a>
+                        <a class="nav-link" href="{% url 'orders:user_orders' %}">Hello {{ user }}. Your orders</a>
                     </li>
                     {% endif %}
                     <li class="nav-item">
@@ -70,7 +79,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
       </script>
 
-<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+<footer class="text-center text-lg-start expand-lg bg-body-tertiary text-muted bottom-0 ">
 
   <!-- Section: Links  -->
   <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
@@ -167,8 +176,8 @@
 
   <!-- Copyright -->
   <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-    © 2021 Copyright:
-    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    © 2024 Copyright:
+    <a class="text-reset fw-bold">cyberaff and FilFib</a>
   </div>
   <!-- Copyright -->
 </footer>
