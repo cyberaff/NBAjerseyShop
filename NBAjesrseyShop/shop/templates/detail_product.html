@@ -8,19 +8,20 @@
             <img src="{{ product.image.url }}" alt="{{ product }} Image" style="width: 40rem;"/>
         </div>
         <div class="col">
-            
-            <h1>{{ product }}</h1>
-            <p>Description: {{ product.description }}</p>
-            <p>Player: {{ player }}</p>
-            <strong>Price: {{ product.price }} €</strong>
-            {% if is_out_of_stock %}
-            <p class="text-danger">Sorry, this product is out of stock. 
-                Only {{ product_variant.stock_quantity }} pieces available 
-                in size {{product_variant.size}}.</p>
-            {% endif %}
-            <form action="{% url 'cart:cart_add' product.id %}" method="post">
-                {{ cart_product_form }}
-                {% csrf_token %}
+            <div class="p-3 mb-2 bg-white text-dark bg-opacity-50 fw-bold">
+                <h1>{{ product }}</h1>
+                <p>Description: {{ product.description }}</p>
+                <p>Player: {{ player }}</p>
+                <strong>Price: {{ product.price }} €</strong>
+                {% if is_out_of_stock %}
+                <p class="text-danger">Sorry, this product is out of stock. 
+                    Only {{ product_variant.stock_quantity }} pieces available 
+                    in size {{product_variant.size}}.</p>
+                {% endif %}
+                <form action="{% url 'cart:cart_add' product.id %}" method="post">
+                    {{ cart_product_form }}
+                    {% csrf_token %}
+                </div>
                 <button type="submit" class="btn btn-primary">
                     <i class="bi bi-cart"></i><span class="ms-2">Add to cart</span>
                 </button>

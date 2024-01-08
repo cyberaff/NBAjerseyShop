@@ -32,7 +32,10 @@
                 <ul class="navbar-nav">
                     {% if user.is_authenticated %}
                     <li class="nav-item">
-                        <a class="nav-link" href="{% url 'orders:user_orders' %}">Hello {{ user }}. Your orders</a>
+                      <div class="nav-link text-success">Hello {{ user }}
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'orders:user_orders' %}">Your orders</a>
                     </li>
                     {% endif %}
                     <li class="nav-item">
@@ -175,7 +178,7 @@
   <!-- Section: Links  -->
 
   <!-- Copyright -->
-  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+  <div class="text-center p-4 position-absolute-bottom" style="background-color: rgba(0, 0, 0, 0.05);">
     © 2024 Copyright:
     <a class="text-reset fw-bold">cyberaff and FilFib</a>
   </div>
