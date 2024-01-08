@@ -26,14 +26,19 @@
                     </tr>
                     {% endwith %}
                     {% endfor %}
+                    <tr>
+                        <td>
+                        <td>
+                        <td class="fw-bold">Total cost:
+                        <td class="fw-bold">{{ cart.get_total_price }} €
+                    </tr>
                 </table>
-                <p class="text-end"><strong>Total cost: {{ cart.get_total_price }} €</strong></p>
             </div>
 
             <div class="col-4 offset-1">
-                <h3>Shipping information</h3>
-                <p>Name: {{ user }}</p>
-                <p>Address: {{ address }}</p>
+                <h3 class="bg-white text-dark bg-opacity-75 fw-bold">Shipping information</h3>
+                <p class="bg-white text-dark bg-opacity-75 fw-bold">Name: {{ user }}</p>
+                <p class="bg-white text-dark bg-opacity-75 fw-bold">Address: {{ address }}</p>
             </div>
         </div>
         <div class="row justify-content-between">
@@ -43,7 +48,7 @@
             <div class="col-6 text-end">
                 {% if cart %}
                 <form method="post">
-                    <button type="submit" class="btn btn-success">Place order</button>
+                    <button type="submit" class="btn btn-success btn-lg">Place order</button>
                     {% csrf_token %}
                 </form>
                 {% endif %}
