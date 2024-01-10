@@ -1,8 +1,9 @@
 # NBAjerseyShop 
 
 Welcome to the NBA Jersey Shop, online store selling NBA player jerseys.
+Project created to show our skills.
 
-![Homepage](https://github.com/FilFib/NBAjerseyShop/blob/develop/README_img/homepage.PNG?raw=true)
+![Homepage](https://github.com/cyberaff/NBAjerseyShop/blob/main/README_img/home_page.png?raw=true)
 
 ## Table of contents
 * [Installation process](#installation-process)
@@ -16,7 +17,7 @@ Welcome to the NBA Jersey Shop, online store selling NBA player jerseys.
 1. Clone the repository to your local computer:
 
     ```
-    $ git clone 'https://github.com/FilFib/NBAjerseyShop.git'
+    $ git clone 'https://github.com/cyberaff/NBAjerseyShop.git'
     ```
 
 2. Navigate to the project directory:
@@ -86,26 +87,26 @@ An application created to manage user accounts. Enables registration, login and 
 
 #### Registration:
 
-![Registrationpage](https://github.com/FilFib/NBAjerseyShop/blob/develop/README_img/registrationpage.PNG?raw=true)
+![Registrationpage](https://github.com/cyberaff/NBAjerseyShop/blob/main/README_img/registration_page.png?raw=true)
 
 #### Log in:
 
-![Loginpage](https://github.com/FilFib/NBAjerseyShop/blob/develop/README_img/loginpage.PNG?raw=true)
+![Loginpage](https://github.com/cyberaff/NBAjerseyShop/blob/main/README_img/login_page.png?raw=true)
 
 ### Shop app:
 The shop application is responsible for displaying products on the home page and on the page with jerseys of a specific selected team, as well as on the page with details of the selected product.
 
 #### Homepage:
 
-![Homepage](https://github.com/FilFib/NBAjerseyShop/blob/develop/README_img/homepage.PNG?raw=true)
+![Homepage](https://github.com/cyberaff/NBAjerseyShop/blob/main/README_img/home_page.png?raw=true)
 
 #### Team jerseys page:
 
-![Teampage](https://github.com/FilFib/NBAjerseyShop/blob/develop/README_img/teampage.PNG?raw=true)
+![Teampage](https://github.com/cyberaff/NBAjerseyShop/blob/main/README_img/team_page.png?raw=true)
 
 #### Jersey detail page:
 
-![Jerseydetail](https://github.com/FilFib/NBAjerseyShop/blob/develop/README_img/jerseydetail.PNG?raw=true)
+![Jerseydetail](https://github.com/cyberaff/NBAjerseyShop/blob/main/README_img/detail_page.png?raw=true)
 
 ### Cart app:
 
@@ -113,7 +114,7 @@ It allows you to view the contents of the basket, add and remove products, as we
 
 #### Cart view:
 
-![Cart](https://github.com/FilFib/NBAjerseyShop/blob/develop/README_img/cart.PNG?raw=true)
+![Cart](https://github.com/cyberaff/NBAjerseyShop/blob/main/README_img/cart_page.png?raw=true)
 
 ### Orders app:
 
@@ -121,15 +122,15 @@ Responsible for placing orders and saving them to the database. This application
 
 #### Order page:
 
-![Orderpage](https://github.com/FilFib/NBAjerseyShop/blob/develop/README_img/orderpage.PNG?raw=true)
+![Orderpage](https://github.com/cyberaff/NBAjerseyShop/blob/main/README_img/order_page.png?raw=true)
 
 #### Thank you page after placing your order:
 
-![Ordercreated](https://github.com/FilFib/NBAjerseyShop/blob/develop/README_img/ordercreatedpage.PNG?raw=true)
+![Ordercreated](https://github.com/cyberaff/NBAjerseyShop/blob/main/README_img/order_created_page.png?raw=true)
 
 #### User's order page:
 
-![Orderspage](https://github.com/FilFib/NBAjerseyShop/blob/develop/README_img/orderspage.PNG?raw=true)
+![Orderspage](https://github.com/cyberaff/NBAjerseyShop/blob/main/README_img/user_orders_page.png?raw=true)
 
 ### Administration panel:
 
@@ -151,22 +152,15 @@ The report on the level of code coverage with tests is presented below:
 
 ## Authors:
 
-<table>
-  <tr>
-      <ul>
-        <b>Filip Fibakiewicz</b>
-        <p>Junior Python Developer</p>
-        <li><a href="https://www.linkedin.com/in/filfib/">LinkedIn Profile</a></li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <ul>
-        <b>Rafał Ćwikła</b>
-        <p>Junior Python Developer</p>
-        <li><a href="https://www.linkedin.com/in/rafalcwikla/">LinkedIn Profile</a></li>
-      </ul>
-    </td>
-  </tr>
-</table>
+ <h2>Rafał Ćwikła</b>
+ <h3>Junior Python Developer</p>
+ <li><a href="https://www.linkedin.com/in/rafalcwikla/">LinkedIn Profile</a></li>
+ <br>
+ <p>And</p>
+
+ <h2>Filip Fibakiewicz</b>
+ <h3>Junior Python Developer</p>
+ <li><a href="https://www.linkedin.com/in/filfib/">LinkedIn Profile</a></li>
+ <br>
+ <h3>Final visual effects (background, footer etc.) made by Rafał Ćwikła</p>
+ 
